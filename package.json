@@ -1,0 +1,25 @@
+{
+    "name": "com.example.hello",
+    "version": "1.0.0",
+    "displayName": "VJARPA Testing",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-geolocation": {},
+            "cordova-plugin-splashscreen": {},
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-x-toast": {},
+            "cordova-plugin-network-information": {},
+            "cordova.plugins.diagnostic": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-geolocation": "~2.4.3",
+        "cordova-plugin-network-information": "^1.3.3",
+        "cordova-plugin-splashscreen": "~4.0.0",
+        "cordova.plugins.diagnostic": "^3.6.7"
+    }
+}
